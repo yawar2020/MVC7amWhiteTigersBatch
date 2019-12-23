@@ -1,0 +1,7 @@
+﻿
+How We Can pass data from controller to view
+What is controller
+What is View
+How we can send one employee record
+How we can send Multiple Employee Record
+Basic on Routing.

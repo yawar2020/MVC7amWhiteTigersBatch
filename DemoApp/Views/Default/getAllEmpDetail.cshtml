@@ -1,0 +1,22 @@
+﻿@model DemoApp.Models.EmpDept
+@{
+    ViewBag.Title = "getAllEmpDetail";
+}
+
+<h2>getAllEmpDetail</h2>
+
+@foreach (var item in Model.emp)
+{
+    @item.Empid<br />
+    @item.EmpName<br />
+    @item.Salary<br /><br />
+}
+
+<br /><br />
+
+@foreach (var item in Model.dept)
+{
+    @item.Deptid<br />
+    @item.DeptName
+    <br /><br />
+}
